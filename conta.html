@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <h2>Programa Contas do Mês</h2>
+    <h3>Sua organização financeira começa aqui</h3>
+    <br>
+    <img
+      src="https://prd-us-brc-wapp-01.azurewebsites.net/content/images/2020/11/planejamento-e-organizacao-financeira-entenda-a-importancia.jpg"
+      height="25%" width="25%" alt="" srcset="">
+    <hr />
+
+    <h3>
+      Descrição da Conta:
+      <input type="text" name="descricao_conta" id="descricao_conta" />
+    </h3>
+    <p></p>
+    <h3>
+      Valor a pagar:
+      <input type="number" name="valor_conta" id="valor_conta" />
+    </h3>
+    <p></p>
+    <button type="submit" id="registrar_conta" onclick="cadastrar_contas ()">
+      <strong>Registrar Conta</strong>
+    </button>
+
+    <h3 id="contas"><br /></h3>
+    <hr />
+    <h3 id="contas2"></h3>
+    <script src="contaJS.js"></script>
+  </div>
+</body>
+
+</html>

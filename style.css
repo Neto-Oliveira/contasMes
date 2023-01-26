@@ -1,0 +1,12 @@
+* {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flexbox;
+  margin: 0;
+  padding: 0;
+  border-radius: 5%;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  background-color: #4d8040;
+}
